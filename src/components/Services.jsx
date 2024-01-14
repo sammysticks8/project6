@@ -36,7 +36,7 @@ const Services = () => {
   const Card = ({ title, sub_title, text }) => {
     return (
       <div className="xl:w-[400px]">
-        <div className="bg-white rounded-[18px] py-[30px] px-[35px] relative overflow-hidden">
+        <div className="bg-white rounded-[18px] py-[30px] px-9 relative overflow-hidden">
           <p className="text-[13px] font-bold pb-12"> {title} </p>
           <h1 className="text-2xl font-bold">{sub_title} </h1>
           <p className="text-[#262626] opacity-80 min-h-[175px] leading-[1.7rem]">
