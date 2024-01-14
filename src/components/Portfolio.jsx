@@ -60,7 +60,7 @@ const Portfolio = () => {
           <Card
             title="VIDEO"
             sub_title="Explore"
-            image="https://luique.bslthemes.com/wp-content/uploads/2022/09/pat-2.png"
+            image="https://luique.bslthemes.com/wp-content/uploads/2021/11/work7.jpg"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
           />
           <Card
