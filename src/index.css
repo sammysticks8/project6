@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jost&display=swap")
+  
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Jost", sans-serif;
+  background-color: transparent;
+}
+
+body {
+  background-image: linear-gradient(180deg,#fff 0%,#f0ebe3 100%);
+}
+
+.dark {
+  @apply bg-gray-800 text-zinc-50;
+}
+.background-primary {
+  background-image: linear-gradient(0deg,#fff 0%,#f0ebe3 100%);
+}
+
+.caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.shadowbtn {
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+.textShadow {
+  text-shadow: 2px 2px #000, -2px 2px #000, 2px -2px #000, -2px -2px #000,
+    5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.accordion-border {
+  border-right: 2px solid black;
+}
+
+.rc-slider-track,
+.rc-slider-tracks {
+  background-color: black;
+  height: 3px;
+}
+
+.rc-slider-handle {
+  background-color: #29a587;
+  top: 0;
+  opacity: 1;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+}
