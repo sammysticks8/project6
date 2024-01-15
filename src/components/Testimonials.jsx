@@ -61,7 +61,7 @@ const Testimonials = () => {
   };
 
   return (
-    <main className="mb-5 pt-52" id="testimonials">
+    <main className="pb-5 pt-52 bg-[#f0ebe3] dark:bg-[#1f2937]" id="testimonials">
       <div className="container max-w-[1300px] px-3 mx-auto">
         <h1 className="sm:text-[44px] text-[26px] text-center m-0">TESTIMONIALS</h1>
         <p className="font-bold text-sm text-[#29a587] flex items-center text-center justify-center gap-x-4">

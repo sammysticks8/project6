@@ -31,7 +31,7 @@ const Skills = () => {
   };
 
   return (
-    <main className="pt-52" id="skills">
+    <main className="pt-52 bg-[#f0ebe3] dark:bg-[#1f2937]" id="skills">
       <div className="flex flex-col items-center container max-w-[1300px] mx-auto px-3">
         <h1 className="sm:text-[44px] text-[26px] text-center m-0">
           PROFESSIONAL SKILLS

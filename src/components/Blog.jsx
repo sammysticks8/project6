@@ -6,8 +6,8 @@ const Blog = () => {
     return (
       <div className="xl:w-[400px]">
         <div className="bg-white rounded-[20px] py-[30px] px-[35px] relative overflow-hidden">
-          <p className="text-[13px] font-medium">{date}</p>
-          <p className="text-2xl font-bold hover:text-[#29a587] my-[15px]">
+          <p className="text-[13px] font-medium dark:text-black">{date}</p>
+          <p className="text-2xl dark:text-black font-bold hover:text-[#29a587] my-[15px]">
             {title}
           </p>
           <p className="text-[#262626] opacity-80 leading-[1.7rem] ">
@@ -34,7 +34,7 @@ const Blog = () => {
   };
 
   return (
-    <main className="mb-5 pt-52" id="blog">
+    <main className="pb-5 pt-52 bg-[#f0ebe3] dark:bg-[#1f2937]" id="blog">
       <div className="flex flex-col items-center container max-w-[1300px] mx-auto px-3">
         <h1 className="sm:text-[44px] text-[26px] text-center m-0">LATEST BLOG</h1>
         <p className="font-bold text-sm text-[#29a587] flex items-center text-center gap-x-4">
@@ -59,8 +59,8 @@ const Blog = () => {
             image="https://luique.bslthemes.com/wp-content/uploads/2022/11/blog-2.jpg"
           />
         </section>
-        <span className="block rounded-full mt-[70px] h-14 border-2 border-black hover:border-solid shadowbtn">
-          <button className="bg-transparent h-full font-bold px-10 rounded-full hover:border-2 border-solid hover:bg-[#29a587] hover:text-white hover:border-white">
+        <span className="block rounded-full mt-[70px] h-14 border border-black border-solid shadowbtn">
+          <button className="bg-transparent dark:text-white h-full font-bold px-10 rounded-full hover:border-2 border-solid hover:bg-[#29a587] hover:text-white hover:border-white">
             VIEW BLOG
           </button>
         </span>

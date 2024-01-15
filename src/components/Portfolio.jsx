@@ -32,7 +32,7 @@ const Portfolio = () => {
   };
 
   return (
-    <main className="mb-5 pt-52" id="works">
+    <main className="pb-5 pt-52 bg-[#f0ebe3] dark:bg-[#1f2937]" id="works">
       <div className="flex flex-col items-center container max-w-[1300px] mx-auto px-3">
         <h1 className="sm:text-[44px] text-[26px] text-center m-0">PORTFOLIO</h1>
         <p className="font-bold text-sm text-[#29a587] flex items-center text-center gap-x-4">
@@ -82,8 +82,8 @@ const Portfolio = () => {
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
           />
         </section>
-        <span className="block rounded-full mt-[70px] h-14 border-2 border-black hover:border-solid shadowbtn">
-              <button className="bg-transparent h-full font-bold px-10 rounded-full hover:border-2 border-solid hover:bg-[#29a587] hover:text-white hover:border-white">
+        <span className="block rounded-full mt-[70px] h-14 border border-black border-solid shadowbtn">
+              <button className="bg-transparent dark:text-white h-full font-bold px-10 rounded-full hover:border-2 border-solid hover:bg-[#29a587] hover:text-white hover:border-white">
                 VIEW MORE
               </button>
             </span>

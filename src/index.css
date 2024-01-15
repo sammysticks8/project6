@@ -11,9 +11,10 @@
   background-color: transparent;
 }
 
-body {
+/* body {
+  background-color: #f0ebe3;
   background-image: linear-gradient(180deg,#fff 0%,#f0ebe3 100%);
-}
+} */
 
 .dark {
   @apply bg-gray-800 text-zinc-50;
@@ -21,6 +22,9 @@ body {
 .background-primary {
   background-image: linear-gradient(0deg,#fff 0%,#f0ebe3 100%);
 }
+/* body.dark {
+  background-color: #1f2937;
+} */
 
 .caveat {
   font-family: "Caveat", cursive;

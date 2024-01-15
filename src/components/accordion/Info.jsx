@@ -27,7 +27,7 @@ const Info = ({ id, title, info, sub_title, start_date, end_date }) => {
               </span>
 
             </span>
-            <p className="text-[#262626]  relative pt-[15px] pb-[30px] leading-8">
+            <p className="text-[#262626] dark:text-white relative pt-[15px] pb-[30px] leading-8">
               {info}
             </p>
           </div>

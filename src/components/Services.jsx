@@ -55,7 +55,7 @@ const Services = () => {
   };
 
   return (
-    <main className="pt-52" id="services">
+    <main className="pt-52 bg-[#f0ebe3] dark:bg-[#1f2937]" id="services">
       <div className="container max-w-[1300px] mx-auto px-3">
         <h1 className="sm:text-[44px] text-[26px] text-center m-0">
           WHAT I DO

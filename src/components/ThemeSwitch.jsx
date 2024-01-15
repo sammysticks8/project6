@@ -19,7 +19,7 @@ const ThemeSwitch = () => {
   }, [theme]);
 
   return (
-    <div className="px-4 rounded-md text-2xl" onClick={themetoggle}>
+    <div className="px-4 rounded-md text-2xl cursor-pointer" onClick={themetoggle}>
       {theme ? <GoSun className="text-white" /> : <FaRegMoon className="text-black" /> }
     </div>
   );

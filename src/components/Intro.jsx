@@ -4,7 +4,7 @@ import { MdHelp, MdRemove } from "react-icons/md";
 
 export const Intro = () => {
   return (
-    <main className="min-h-screen flex xl:pt-0 pt-36" id="home">
+    <main className="min-h-screen flex xl:pt-0 pt-36 bg-[#f0ebe3] dark:bg-[#1f2937]" id="home">
       <div className="xl:flex items-center container max-w-[1300px] mx-auto lg:px-3">
         <section className="xl:w-1/2 xl:text-left text-center">
           <p className="text-[15px] font-bold">
@@ -27,8 +27,8 @@ export const Intro = () => {
               <FaBehance />
             </div>
             <div className="flex items-center w-fit text-[13px] font-bold pt-4">
-              <span className="block rounded-full h-14 border-2 border-black hover:border-solid shadowbtn">
-                <button className="bg-transparent h-full font-bold px-10 rounded-full hover:border-2 border-solid hover:bg-[#29a587] hover:text-white hover:border-white">
+              <span className="block rounded-full h-14 border border-black border-solid shadowbtn">
+                <button className="bg-transparent dark:text-white h-full font-bold px-10 rounded-full border-0 border-solid border-white hover:border-2 border-solid hover:bg-[#29a587] hover:text-white hover:border-white">
                   DOWNLOAD CV
                 </button>
               </span>
@@ -52,7 +52,7 @@ export const Intro = () => {
 
             <div className="absolute z-10 lg:bottom-24 bottom-20 xl:-left-10 lg:left-40 left-0">
               <div className="block rounded-full sm:h-20 h-14 w-fit shadowbtn relative z-10">
-                <button className="h-full sm:px-6 px-3 rounded-full lg:text-[37px] text-[13px] font-bold flex items-center justify-between gap-x-3 relative bg-[#fefdfc] z-10">
+                <button className="h-full sm:px-6 px-3 border border-black border-solid rounded-full lg:text-[37px] text-[13px] font-bold flex items-center justify-between gap-x-3 relative bg-[#fefdfc] z-10">
                   12 <strong className="text-[#29a587] text-[37px]">+</strong>
                   <span className="text-[13px] flex flex-col items-start leading-tight">
                     YEARS OF
@@ -68,7 +68,7 @@ export const Intro = () => {
             </div>
             <div className="absolute z-10 lg:bottom-12 bottom-4 xl:right-14 lg:right-40 right-8">
               <div className="block rounded-full sm:h-20 h-14 w-fit shadowbtn relative z-10">
-                <button className="h-full sm:px-6 px-3 rounded-full lg:text-[37px] text-[13px] font-bold flex items-center justify-between gap-x-3 relative bg-[#fefdfc] z-10">
+                <button className="h-full sm:px-6 px-3 border border-black border-solid rounded-full lg:text-[37px] text-[13px] font-bold flex items-center justify-between gap-x-3 relative bg-[#fefdfc] z-10">
                   330
                   <span className="text-[13px] flex flex-col items-start leading-none">
                     COMPLETED
