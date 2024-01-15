@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 const Portfolio = () => {
   const Card = ({ title, sub_title, text, image }) => {
     return (
-      <div className="xl:w-[400px]">
+      <div className="xl:w-[400px] hoverBtn">
         <div className="bg-white rounded-[20px] py-[30px] px-[35px] relative overflow-hidden">
           <img
             src={image}

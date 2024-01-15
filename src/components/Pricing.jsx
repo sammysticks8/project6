@@ -4,7 +4,7 @@ import { FaArrowRight, FaCheck } from "react-icons/fa";
 const Pricing = () => {
   const Card = ({ amount, duration, title, children }) => {
     return (
-      <div className="xl:w-[400px] relative">
+      <div className="xl:w-[400px] relative hoverBtn">
         <div className={`${title === 'FREELANCING' && 'border-2 border-solid'} bg-white rounded-[20px] py-[30px] px-[35px] relative overflow-hidden dark:text-black`}>
           <p className="text-[13px] font-bold mb-[15px] m-0">{title}</p>
           <div className="flex items-center gap-x-4 my-5">

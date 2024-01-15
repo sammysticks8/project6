@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 const Blog = () => {
   const Card = ({ date, title, image }) => {
     return (
-      <div className="xl:w-[400px]">
+      <div className="xl:w-[400px] hoverBtn">
         <div className="bg-white rounded-[20px] py-[30px] px-[35px] relative overflow-hidden">
           <p className="text-[13px] font-medium dark:text-black">{date}</p>
           <p className="text-2xl dark:text-black font-bold hover:text-[#29a587] my-[15px]">

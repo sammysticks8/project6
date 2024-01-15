@@ -34,7 +34,7 @@ const settings = {
 const Testimonials = () => {
   const Card = ({ name, job, image }) => {
     return (
-      <div className="xl:w-[400px]">
+      <div className="xl:w-[400px] hoverBtn">
         <div className="bg-white rounded-[20px] py-[30px] px-[35px] relative overflow-hidden">
           <div className="relative">
           <img src="/quotes.svg" alt="" className="absolute z-10" />

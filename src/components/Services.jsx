@@ -35,7 +35,7 @@ const settings = {
 const Services = () => {
   const Card = ({ title, sub_title, text }) => {
     return (
-      <div className="xl:w-[400px] w-full">
+      <div className="xl:w-[400px] w-full hoverBtn">
         <div className="bg-white rounded-[18px] py-[30px] px-9 relative overflow-hidden">
           <p className="text-[13px] font-bold pb-12"> {title} </p>
           <h1 className="text-2xl font-bold">{sub_title} </h1>
@@ -46,7 +46,7 @@ const Services = () => {
             href="#pricing"
             className="font-bold flex items-center gap-x-2 no-underline text-black"
           >
-            See Pricing <FaArrowRight className="text-[#29a587]" />{" "}
+            See Pricing <FaArrowRight className="text-[#29a587]" />
           </a>
           <div className="absolute -right-6 -bottom-6 bg-[url('/pat-2.png')] bg-contain bg-center w-[131px] h-[131px]"></div>
         </div>
