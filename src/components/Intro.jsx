@@ -1,10 +1,11 @@
-import { FaBehance, FaCartPlus, FaDribbble, FaTwitter } from "react-icons/fa";
-import { FiGrid } from "react-icons/fi";
-import { MdHelp, MdRemove } from "react-icons/md";
+import { FaBehance, FaDribbble, FaTwitter } from "react-icons/fa";
 
 export const Intro = () => {
   return (
-    <main className="min-h-screen flex xl:pt-0 pt-36 bg-[#f0ebe3] dark:bg-[#1f2937]" id="home">
+    <main
+      className="min-h-screen flex xl:pt-0 pt-36 bg-[#f0ebe3] dark:bg-[#1f2937]"
+      id="home"
+    >
       <div className="xl:flex items-center container max-w-[1300px] mx-auto lg:px-3">
         <section className="xl:w-1/2 xl:text-left text-center">
           <p className="text-[15px] font-bold">
@@ -28,7 +29,9 @@ export const Intro = () => {
             </div>
             <div className="flex items-center w-fit text-[13px] font-bold pt-4">
               <span className="block rounded-full h-14 border border-black border-solid shadowbtn">
-              <button className="bg-transparent dark:text-white h-full font-bold px-10 rounded-full hover:border-2 border-solid hover:bg-[#29a587] hover:text-white hover:border-white">                  DOWNLOAD CV
+                <button className="bg-transparent dark:text-white h-full font-bold px-10 rounded-full hover:border-2 border-solid hover:bg-[#29a587] hover:text-white hover:border-white">
+                  {" "}
+                  DOWNLOAD CV
                 </button>
               </span>
               <hr className="w-10 h-[3px] bg-black mr-6" />
@@ -103,12 +106,6 @@ export const Intro = () => {
             <p>MY SKILLS</p>
           </div>
         </span>
-      </div>
-      <div className="fixed z-10 right-0 bg-white border-r-0 border border-solid lg:flex hidden flex-col top-1/2">
-        <MdRemove className="text-2xl p-[10px] border-0 border-b border-solid cursor-pointer" />
-        <MdHelp className="text-2xl p-[10px] border-0 border-b border-solid cursor-pointer" />
-        <FaCartPlus className="text-2xl p-[10px] border-0 border-b border-solid cursor-pointer" />
-        <FiGrid className="text-2xl p-[10px] cursor-pointer" />
       </div>
     </main>
   );

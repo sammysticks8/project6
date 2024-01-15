@@ -2,7 +2,7 @@ import { FaBehance, FaDribbble, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#f0ebe3] dark:bg-[#1f2937]">
+    <footer className="bg-[#f0ebe3] dark:bg-[#1f2937] px-3">
       <div className="container mx-auto py-[60px] flex sm:flex-row flex-col gap-y-4 items-center justify-between">
       <div className="flex items-center gap-x-8 text-[22px]">
             <FaTwitter />
