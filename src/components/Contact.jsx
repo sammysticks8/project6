@@ -59,20 +59,20 @@ const Contact = () => {
             <div className="sm:flex gap-x-8 w-full mb-8">
               <label className="flex flex-col w-full gap-4">
                 <p className="pl-12 text-[#262626] dark:text-white font-bold text-sm">YOUR FULL NAME *</p>
-                <input type="text" className="rounded-full h-[60px] px-8 border border-black border-solid" />
+                <input type="text" className="rounded-full h-[60px] px-8 border border-black border-solid outline-none" />
               </label>
               <label className="flex flex-col w-full gap-4">
                 <p className="pl-12 text-[#262626] dark:text-white font-bold text-sm">YOUR EMAIL ADDRESS *</p>
-                <input type="email" className="rounded-full h-[60px] px-8 border border-black border-solid" />
+                <input type="email" className="rounded-full h-[60px] px-8 border border-black border-solid outline-none" />
               </label>
             </div>
             <label className="flex flex-col w-full gap-4 mb-8">
               <p className="pl-12 text-[#262626] dark:text-white font-bold text-sm">YOUR SUBJECT *</p>
-              <input type="text" className="rounded-full h-[60px] px-8 border border-black border-solid" />
+              <input type="text" className="rounded-full h-[60px] px-8 border border-black border-solid outline-none" />
             </label>
             <label className="flex flex-col w-full gap-4 mb-8">
               <p className="pl-12 text-[#262626] dark:text-white font-bold text-sm">YOUR MESSAGE *</p>
-              <textarea className="rounded-[30px] p-8 h-[140px] resize-none border border-black border-solid" />
+              <textarea className="rounded-[30px] p-8 h-[140px] resize-none border border-black border-solid outline-none" />
             </label>
             <div className="flex sm:flex-row flex-col sm:items-center items-end justify-end gap-8">
               <label className="flex items-center gap-x-2 cursor-pointer">
