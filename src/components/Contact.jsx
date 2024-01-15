@@ -23,7 +23,7 @@ const Contact = () => {
 
   return (
     <main className="pb-5 lg:py-52 py-16 bg-[#f0ebe3] dark:bg-[#1f2937]" id="contact">
-      <div className="lg:flex flex-col items-center container max-w-[1300px] mx-auto px-3">
+      <div className="lg:flex flex-col items-center container max-w-[1300px] mx-auto">
         <h1 className="sm:text-[44px] text-[26px] text-center m-0">CONTACT ME</h1>
         <p className="font-bold text-sm text-[#29a587] flex items-center justify-center text-center gap-x-4">
           LET’S

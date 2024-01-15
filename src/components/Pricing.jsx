@@ -41,7 +41,7 @@ const Pricing = () => {
 
   return (
     <main className="pb-5 pt-52 bg-[#f0ebe3] dark:bg-[#1f2937]" id="pricing">
-      <div className="flex flex-col items-center container max-w-[1300px] mx-auto px-3">
+      <div className="flex flex-col items-center container max-w-[1300px] mx-auto">
         <h1 className="sm:text-[44px] text-[26px] text-center m-0">PRICING</h1>
         <p className="font-bold text-sm text-[#29a587] flex items-center text-center gap-x-4">
           MY <span className="caveat text-3xl text-black">Price Board</span>

@@ -28,8 +28,7 @@ export const Intro = () => {
             </div>
             <div className="flex items-center w-fit text-[13px] font-bold pt-4">
               <span className="block rounded-full h-14 border border-black border-solid shadowbtn">
-                <button className="bg-transparent dark:text-white h-full font-bold px-10 rounded-full border-0 border-solid border-white hover:border-2 border-solid hover:bg-[#29a587] hover:text-white hover:border-white">
-                  DOWNLOAD CV
+              <button className="bg-transparent dark:text-white h-full font-bold px-10 rounded-full hover:border-2 border-solid hover:bg-[#29a587] hover:text-white hover:border-white">                  DOWNLOAD CV
                 </button>
               </span>
               <hr className="w-10 h-[3px] bg-black mr-6" />
@@ -105,7 +104,7 @@ export const Intro = () => {
           </div>
         </span>
       </div>
-      <div className="fixed z-10 right-0 bg-white border-r-0 border border-solid flex flex-col top-1/2">
+      <div className="fixed z-10 right-0 bg-white border-r-0 border border-solid lg:flex hidden flex-col top-1/2">
         <MdRemove className="text-2xl p-[10px] border-0 border-b border-solid cursor-pointer" />
         <MdHelp className="text-2xl p-[10px] border-0 border-b border-solid cursor-pointer" />
         <FaCartPlus className="text-2xl p-[10px] border-0 border-b border-solid cursor-pointer" />

@@ -35,7 +35,7 @@ const Blog = () => {
 
   return (
     <main className="pb-5 pt-52 bg-[#f0ebe3] dark:bg-[#1f2937]" id="blog">
-      <div className="flex flex-col items-center container max-w-[1300px] mx-auto px-3">
+      <div className="flex flex-col items-center container max-w-[1300px] mx-auto lg:px-3">
         <h1 className="sm:text-[44px] text-[26px] text-center m-0">LATEST BLOG</h1>
         <p className="font-bold text-sm text-[#29a587] flex items-center text-center gap-x-4">
           MY <span className="caveat text-3xl text-black">

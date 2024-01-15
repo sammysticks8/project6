@@ -35,7 +35,7 @@ const settings = {
 const Services = () => {
   const Card = ({ title, sub_title, text }) => {
     return (
-      <div className="xl:w-[400px]">
+      <div className="xl:w-[400px] w-full">
         <div className="bg-white rounded-[18px] py-[30px] px-9 relative overflow-hidden">
           <p className="text-[13px] font-bold pb-12"> {title} </p>
           <h1 className="text-2xl font-bold">{sub_title} </h1>
@@ -56,7 +56,7 @@ const Services = () => {
 
   return (
     <main className="pt-52 bg-[#f0ebe3] dark:bg-[#1f2937]" id="services">
-      <div className="container max-w-[1300px] mx-auto px-3">
+      <div className="container max-w-[1300px] w-full mx-auto">
         <h1 className="sm:text-[44px] text-[26px] text-center m-0">
           WHAT I DO
         </h1>

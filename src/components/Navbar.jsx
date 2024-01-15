@@ -11,8 +11,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full lg:h-auto h-[130px] flex flex-col justify-center items-center fixed z-50 bg-[#f0ebe3] dark:bg-[#1f2937]">
-      <div className="w-[95%] h-full flex justify-between items-baseline pt-2 text-[#12222E] relative">
+    <nav className="w-full lg:h-auto h-[10vh] flex flex-col justify-center items-center fixed z-50 bg-[#f0ebe3] dark:bg-[#1f2937]">
+      <div className="w-[95%] h-[10vh] flex justify-between items-baseline pt-2 text-[#12222E] relative">
         <div className="flex justify-between items-center w-full pt-4">
           <img src="/logo.png" alt="logo" className="w-28 h-5" />
 
@@ -38,11 +38,11 @@ const Navbar = () => {
 
       {dropdown ? (
         <div
-          className="w-full h-[100vh] lg:w-[512px] absolute lg:top-0 top-20 lg:right-0 background-primary transition ease-in-out duration-100 "
+          className="w-full h-[100vh] lg:w-[512px] absolute lg:top-0 top-[10vh] lg:right-0 bg-[#f0ebe3] dark:bg-[#1f2937] transition ease-in-out duration-100 "
           onClick={showDropdown}
         >
-          <div className="w-full lg:h-full flex flex-col items-baseline pt-8 gap-4 text-[#12222E]">
-            <ul className="font-bold text-[22px] px-3 flex flex-col justify-center w-full h-full gap-y-8">
+          <div className="w-full lg:h-full h-[320px] flex flex-col items-baseline pt-8 gap-4 text-[#12222E]">
+            <ul className="font-bold text-[22px] px-3 flex flex-col justify-center items-center w-full h-full lg:mt-0 mt-[10vh] gap-y-8">
               <a
                 href="#home"
                 className="cursor-pointer text-black no-underline hover:text-[#29a587]"
