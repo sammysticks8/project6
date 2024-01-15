@@ -103,11 +103,11 @@ const Pricing = () => {
               </span>
               <span className="flex items-center gap-x-4">
                 <FaCheck className="text-[#29a587]" />
-                <p className="text-[#B3B3B3]">Advertising</p>
+                <p className="text-[#262626]">Advertising</p>
               </span>
               <span className="flex items-center gap-x-4">
                 <FaCheck className="text-[#29a587]" />
-                <p className="text-[#B3B3B3]">Photography</p>
+                <p className="text-[#262626]">Photography</p>
               </span>
             </div>
           </Card>
